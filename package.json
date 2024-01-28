@@ -24,6 +24,5 @@
   ],
   "release": {
     "branches": ["main"]
-  },
-  "private": true
+  }
 }
