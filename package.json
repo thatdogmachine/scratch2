@@ -1,0 +1,29 @@
+{
+  "name": "scratch2",
+  "version": "0.1.0",
+  "description": "test",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/github": "^9.2.6",
+    "git-cz": "^4.9.0",
+    "semantic-release": "^23.0.0"
+  },
+  "config": {
+    "commitizen": {
+        "path": "git-cz"
+    }
+  },
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/github",
+    "@semantic-release/npm", {
+        "npmPublish": false
+    }
+  ],
+  "release": {
+    "branches": ["main"]
+  },
+  "private": true
+}
