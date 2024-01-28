@@ -1,8 +1,8 @@
 {
-  "name": "scratch2",
-  "version": "0.1.0",
-  "description": "test",
-  "author": "",
+  "name": "semver-conventional-commits",
+  "version": "1.0.0",
+  "description": "provides semver/conventional commit tagging in github",
+  "private": true,
   "license": "ISC",
   "devDependencies": {
     "@semantic-release/github": "^9.2.6",
